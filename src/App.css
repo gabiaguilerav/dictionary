@@ -21,21 +21,16 @@ h1 {
   color: var(--grey);
 }
 
-.subheading {
-  display: inline-flex;
-  vertical-align: center;
-}
-
 h2 {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 65px;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 28px;
   letter-spacing: -0.02em;
-  color: var(--grey);
+  color: var(--purple);
 }
 
 .material-symbols-outlined {
-  color: var(--grey);
+  color: var(--purple);
   margin-left: 5px;
 }
