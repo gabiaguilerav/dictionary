@@ -1,0 +1,16 @@
+.Footer {
+  margin-top: 350px;
+  text-align: center;
+  color: var(--grey);
+  font-weight: 300;
+}
+
+a {
+  color: var(--grey);
+  transition: all 100ms ease-in-out;
+}
+
+a:hover {
+  color: var(--yellow);
+  cursor: pointer;
+}
