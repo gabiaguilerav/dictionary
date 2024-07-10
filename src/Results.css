@@ -1,0 +1,91 @@
+.container-results {
+  margin: 70px auto;
+}
+.Results h3 {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 120%;
+  color: var(--purple);
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.first-section {
+  margin: 50px auto;
+}
+
+.Phonetics {
+  margin-top: 10px;
+  max-width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.phonetics-text {
+  text-align: left;
+  color: var(--yellow);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  transition: all 100ms ease-in-out;
+}
+
+.phonetics-audio {
+  color: var(--purple);
+  font-weight: 400;
+  font-size: 17px;
+  text-decoration: none;
+  line-height: 120%;
+
+  padding: 3px 8px;
+  background: #f4ecde;
+  border: 1px solid var(--purple);
+  box-shadow: 0px 4px 4px -1px rgba(12, 12, 13, 0.1),
+    0px 4px 4px -1px rgba(12, 12, 13, 0.05);
+  border-radius: 16px;
+
+  transition: all 100ms ease-in-out;
+}
+
+.phonetics-audio:hover {
+  color: #f4ecde;
+  background: var(--yellow);
+  border: 1px solid var(--yellow);
+  cursor: pointer;
+}
+
+.second-section {
+  margin: 50px auto;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  color: var(--yellow);
+  text-transform: uppercase;
+}
+
+.results-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  color: var(--yellow);
+  text-transform: capitalize;
+}
+
+.results-text {
+  color: var(--purple);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.results-example {
+  color: var(--yellow);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  margin-left: 20px;
+}

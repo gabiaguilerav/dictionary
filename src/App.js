@@ -10,7 +10,9 @@ export default function App() {
 
         <h2>
           We can help you finding the meaning of a word{" "}
-          <span className="material-symbols-outlined">captive_portal</span>
+          <span className="material-symbols-outlined" id="first-icon">
+            captive_portal
+          </span>
         </h2>
 
         <Dictionary />
