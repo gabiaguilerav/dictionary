@@ -5,12 +5,12 @@
   font-weight: 300;
 }
 
-a {
+.Footer a {
   color: var(--grey);
   transition: all 100ms ease-in-out;
 }
 
-a:hover {
+.Footer a:hover {
   color: var(--yellow);
   cursor: pointer;
 }
