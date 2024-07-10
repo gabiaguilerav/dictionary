@@ -8,7 +8,9 @@ export default function Synonyms(props) {
           return (
             <div className="synonyms">
               <span>Synonyms:</span>
-              <li key={index}>{synonym}</li>
+              <ul>
+                <li key={index}>{synonym}</li>
+              </ul>
             </div>
           );
         })}
