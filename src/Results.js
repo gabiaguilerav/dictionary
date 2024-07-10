@@ -7,16 +7,19 @@ export default function Results(props) {
   if (props.results) {
     return (
       <div className="Results">
-        <div className="row justify-content-start first-section">
-          <h3>{props.results.word}</h3>
+        <div className="row justify-content-center first-section">
+          <div></div>
+          <div className="col">
+            <h3>{props.results.word}</h3>
 
-          {props.results.phonetics.map(function (phonetic, index) {
-            return (
-              <div key={index}>
-                <Phonetic phonetic={phonetic} />
-              </div>
-            );
-          })}
+            {props.results.phonetics.map(function (phonetic, index) {
+              return (
+                <div key={index}>
+                  <Phonetic phonetic={phonetic} />
+                </div>
+              );
+            })}
+          </div>
         </div>
 
         {props.results.meanings.map(function (meaning, index) {
