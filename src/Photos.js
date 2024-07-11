@@ -12,7 +12,7 @@ export default function Photos(props) {
               <div className="col" key={index}>
                 <img
                   src={photo.src.medium}
-                  alt={""}
+                  alt={photo.alt}
                   className="img-fluid picture"
                 />
               </div>
