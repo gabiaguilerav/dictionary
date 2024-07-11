@@ -1,0 +1,11 @@
+.picture {
+  border: 2px solid #e08a13;
+  border-radius: 10px;
+  margin: 0 5px;
+  max-width: 90%;
+}
+
+.Photos {
+  display: flex;
+  margin-left: 50px;
+}
