@@ -19,7 +19,7 @@
   margin-top: 10px;
   max-width: 30%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .phonetics-text {
